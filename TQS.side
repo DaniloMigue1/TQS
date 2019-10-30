@@ -1,0 +1,232 @@
+{
+  "id": "e57fd2b9-4f8d-4801-8dcb-747dc94cf26a",
+  "version": "2.0",
+  "name": "TQS",
+  "url": "https://forms.gle/Sc9HLe1wcyMsS58K8",
+  "tests": [{
+    "id": "1ecfe449-80dd-485b-9619-235c9fbb8f7c",
+    "name": "Caminho Feliz",
+    "commands": [{
+      "id": "5834399c-1fd9-45f9-9459-480a9cb0d547",
+      "comment": "",
+      "command": "open",
+      "target": "/forms/d/e/1FAIpQLSdKzJ031HOBoBzfqLNTVIlEj0_d4MaqwEs9BDLjIfwzINSe9g/viewform",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2877df09-55a7-43eb-9ec6-cc047c3593e6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ced83464-2937-4c08-a5dd-516831a7900b",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.366340186",
+      "targets": [
+        ["name=entry.366340186", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(1) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.366340186']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bc6207f-c55b-4619-a259-a353a5821858",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.366340186",
+      "targets": [
+        ["name=entry.366340186", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(1) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.366340186']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Resposta A"
+    }, {
+      "id": "4fbd90d6-e44e-4099-9615-9e315fd44326",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.529716383",
+      "targets": [
+        ["name=entry.529716383", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(2) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.529716383']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Resposta B"
+    }, {
+      "id": "3a8ee89b-d601-4ba2-b8db-7a7546267ccc",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.580779492",
+      "targets": [
+        ["name=entry.580779492", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(3) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.580779492']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[3]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Resposta C"
+    }, {
+      "id": "5bf218a2-a500-4180-9198-9555b0577bbc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantumWizButtonPaperbuttonDark .quantumWizButtonPaperbuttonLabel",
+      "targets": [
+        ["css=.quantumWizButtonPaperbuttonDark .quantumWizButtonPaperbuttonLabel", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[3]/div/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4f9ca3d-12a3-432d-a592-12582a596122",
+      "comment": "",
+      "command": "click",
+      "target": "css=.freebirdFormviewerViewResponseConfirmationMessage",
+      "targets": [
+        ["css=.freebirdFormviewerViewResponseConfirmationMessage", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16ce3e3c-9391-4e47-845b-77e0e8819cfc",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.freebirdFormviewerViewResponseConfirmationMessage",
+      "targets": [
+        ["css=.freebirdFormviewerViewResponseConfirmationMessage", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "Sua resposta foi registrada."
+    }, {
+      "id": "574c346f-5f24-4c66-9d95-d2f37f696fa8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.freebirdFormviewerViewCenteredContent",
+      "targets": [
+        ["css=.freebirdFormviewerViewCenteredContent", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eee2e97-ebe2-4501-b5fc-6d76af8319a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.freebirdFormviewerViewFormContentWrapper",
+      "targets": [
+        ["css=.freebirdFormviewerViewFormContentWrapper", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fde04f37-6df9-4b15-bab9-415e1b9d97c2",
+    "name": "Caminho Infeliz",
+    "commands": [{
+      "id": "423f91dc-3ae6-4875-9487-ffa5daba83cd",
+      "comment": "",
+      "command": "open",
+      "target": "https://docs.google.com/forms/d/e/1FAIpQLSdKzJ031HOBoBzfqLNTVIlEj0_d4MaqwEs9BDLjIfwzINSe9g/viewform",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1dc3c94-ca68-400a-b09f-1b464bcfa8ba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6b39266-cab8-4075-810b-f05d5ce79901",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.366340186",
+      "targets": [
+        ["name=entry.366340186", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(1) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.366340186']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec05e289-ce83-4770-89f4-3b5d251485fe",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.366340186",
+      "targets": [
+        ["name=entry.366340186", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(1) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.366340186']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Resposta A"
+    }, {
+      "id": "e5eab817-cf9e-4eb3-b930-d48504ae1249",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.529716383",
+      "targets": [
+        ["name=entry.529716383", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(2) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.529716383']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Resposta B"
+    }, {
+      "id": "5bbf9cb5-6b5f-4c18-907b-9ec0c96dd2ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantumWizButtonPaperbuttonDark .quantumWizButtonPaperbuttonLabel",
+      "targets": [
+        ["css=.quantumWizButtonPaperbuttonDark .quantumWizButtonPaperbuttonLabel", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[3]/div/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be9564da-5282-4eba-98a5-fe3ee1b79da2",
+      "comment": "",
+      "command": "click",
+      "target": "id=i.err.1288562804",
+      "targets": [
+        ["id=i.err.1288562804", "id"],
+        ["css=#i\\.err\\.1288562804", "css:finder"],
+        ["xpath=//div[@id='i.err.1288562804']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[3]/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cbca72d-c389-439b-b9e5-ca05c4d26134",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=i.err.1288562804",
+      "targets": [
+        ["id=i.err.1288562804", "id"],
+        ["css=#i\\.err\\.1288562804", "css:finder"],
+        ["xpath=//div[@id='i.err.1288562804']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[3]/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[4]", "xpath:position"]
+      ],
+      "value": "Esta pergunta é obrigatória"
+    }]
+  }],
+  "suites": [{
+    "id": "e5daece4-1e78-4951-9b72-0adcdb1a25c7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1ecfe449-80dd-485b-9619-235c9fbb8f7c"]
+  }],
+  "urls": ["https://docs.google.com/", "https://forms.gle/Sc9HLe1wcyMsS58K8"],
+  "plugins": []
+}
